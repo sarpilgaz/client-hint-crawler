@@ -1,0 +1,17 @@
+#ignore db
+*.db
+
+#ignore tranco lists
+*.csv
+
+#python stuff
+__pycache__/
+venv/
+.pytest_cache/
+
+network_captures/
+sample_hexdumps/
+
+#logs:
+*.log
+
