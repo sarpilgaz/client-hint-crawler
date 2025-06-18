@@ -6,6 +6,7 @@ The crawler requires the following system dependencies on a Linux system:
 - xvfb
 - sqlite3
 - tshark
+
 example on debian-based systems:
 ```bash
 sudo apt install python xvfb sqlite3 tshark
@@ -44,6 +45,7 @@ The following folders and files need to be created in the root of the repository
 - A folder to keep the network captures generated during the crawl 
 - A folder to keep the hexdumps generated during the crawl 
 - A file for the database
+
 Example:
 ```bash
 mkdir network_captures
